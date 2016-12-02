@@ -1,0 +1,11 @@
+table
+  th Email
+  th Name
+  th 
+  - @accounts.each do |account|
+    tr
+      td=account.email
+      td=account.name
+      td
+        a href="/accounts/#{account.id}/delete" delete
+a href='/accounts/new' Add account

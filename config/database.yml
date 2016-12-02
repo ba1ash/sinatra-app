@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sinatra_dev
+  pool: 2
+  username: ba1ash
+  password: '12345'
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sinatra_test
+  pool: 2
+  username: ba1ash
+  password: '12345'
